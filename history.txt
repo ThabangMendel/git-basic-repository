@@ -1,0 +1,304 @@
+    1  git config --global user.name "Thabang Motsoeneng
+    2  git config --global user.name "Thabang Motsoeneng"
+    3  git config --global user.email thabanghendrickm@gmail.com
+    4  git config --list
+    5  cd git-basic-exercises
+    6  git status
+    7  git log
+    8  q
+    9   
+   10  git log
+   11  nano README.md
+   12  cat README.md
+   13  git stats
+   14  git status
+   15  git add README.md
+   16  git commit -m "second commit"
+   17  git log
+   18  nano README.md
+   19  cat README.md
+   20  git status
+   21  git add README.md
+   22  git commit -m "third commit"
+   23  git log
+   24  git checkout e2280112ad1ccd3898f8c136ef8cb049f9f8b309
+   25  cat README.md
+   26  git checkout main
+   27  git checkout main
+   28  git status
+   29  git log
+   30  git checkout master
+   31  cat README.md
+   32  git log
+   33  git branch
+   34  git branch
+   35  git branch milkshake-flavours
+   36  git branch
+   37  git checkout
+   38  git branch
+   39  git checkout master
+   40  git checkout milkshake-flavours
+   41  git branch
+   42  nano milkshakes.md
+   43  git status
+   44  git add milkshakes.md
+   45  git commit -m "added new flavours"
+   46  git log
+   47  git checkout master
+   48  git status
+   49  git log
+   50  git branch history
+   51  git checkout history
+   52  git log
+   53  git branch
+   54  history > history.txt
+   55  git log
+   56  git status
+   57  git add history.txt
+   58  git commit -m "added history"
+   59  git log
+   60  git checkout milkshake
+   61  git checkout milkshakes
+   62  git checkout milkshake-flavours
+   63  git log
+   64  git checkout master
+   65  git status
+   66  git log
+   67  nano README.md
+   68  git add README.md
+   69  git commit -m "random readme changes"
+   70  git log
+   71  git checkout history
+   72  cat README.md
+   73  rm README.md
+   74  echo "booya" > README.md
+   75  git add README.md
+   76  git commit -m "rewrote readme"
+   77  git c
+   78  git checkout master
+   79  ls
+   80  git log
+   81  git reset --hard  57aa97a
+   82  git rm  57aa97a
+   83  git hist
+   84  git checkout master
+   85  git log
+   86  git cd Temp
+   87  cd Temp
+   88  pwd
+   89  mkdir Umuzi_bootcamp
+   90  cd Umuzi_bootcamp
+   91  cd ~
+   92  cd/Documents
+   93  cd /Documents
+   94  ls
+   95  cd Document/
+   96  /Documents
+   97  mkdir Umuzi_bootcamp
+   98  cd Umuzi_bootcamp
+   99  mkdir git-basic-exercises
+  100  cd git-basic-exercises
+  101  ls -a
+  102  git init
+  103  ls -a
+  104  touch README.md
+  105  ls -a
+  106  git add README.md
+  107  git status
+  108  git rm README.md
+  109  git status
+  110  git commit -m "initial commit"
+  111  git log
+  112  q
+  113  nano README.md
+  114  cat README.md
+  115  git stats
+  116  git status
+  117  git add README.md
+  118  git commit -m "second commit"
+  119  nano README.md
+  120  cat README.md
+  121  git add README.md
+  122  git commit -m "third commit"
+  123  git log
+  124  q
+  125  git checkout 57714d0ebbf62d2683629797850a861966ace1b3
+  126  cat README.md
+  127  git checkout main
+  128  git checkout master
+  129  cat README.md
+  130  git branch
+  131  git branch milkshake-flavours
+  132  git branch
+  133  git branch milkshake-flavours
+  134  git branch milkshake-flavours
+  135  git checkout milkshake-flavours
+  136  git branch
+  137  nano milshakes.md
+  138  git status
+  139  git add milkshakes.md
+  140  nano milshakes.md
+  141  nano milshakes.md
+  142  git checkout milshakes.md
+  143  git status
+  144  cat milshakes.md > milkshakes.md
+  145  nano milkshakes.md
+  146  git add milkshakes.md
+  147  git status
+  148  git commit -m "added initial flavours"
+  149  git log
+  150  checkout master
+  151  git checkout master
+  152  git log
+  153  git branch history
+  154  git log
+  155  git branch
+  156  history > history.txt
+  157  git add history.txt
+  158  git commit -m "added history"
+  159  git log
+  160  pro@Mendel MINGW64 ~
+  161  $ cd git-basic-exercises
+  162  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  163  $ git status
+  164  On branch master
+  165  nothing to commit, working tree clean
+  166  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  167  $ git log
+  168  commit f4346566d5ff701779277f32b7cec13bf4b3cb25 (HEAD -> master)
+  169  Author: Thabang Motsoeneng <thabanghendrickm@gmail.com>
+  170  Date:   Tue Mar 9 12:43:43 2021 +0200
+  171      initial commit
+  172  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  173  $ q
+  174  bash: q: command not found
+  175  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  176  $
+  177  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  178  $
+  179  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  180  $ git log
+  181  commit f4346566d5ff701779277f32b7cec13bf4b3cb25 (HEAD -> master)
+  182  Author: Thabang Motsoeneng <thabanghendrickm@gmail.com>
+  183  Date:   Tue Mar 9 12:43:43 2021 +0200
+  184      initial commit
+  185  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  186  $ nano README.md
+  187  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  188  $ cat README.md
+  189  I feel like a hacker who is busy trying to find out who stole my secrets.LOL
+  190  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  191  $ git stats
+  192  git: 'stats' is not a git command. See 'git --help'.
+  193  The most similar command is
+  194          status
+  195  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  196  $ git status
+  197  On branch master
+  198  Changes not staged for commit:
+  199    (use "git add <file>..." to update what will be committed)
+  200    (use "git restore <file>..." to discard changes in working directory)
+  201          modified:   README.md
+  202  no changes added to commit (use "git add" and/or "git commit -a")
+  203  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  204  $ git add README.md
+  205  warning: LF will be replaced by CRLF in README.md.
+  206  The file will have its original line endings in your working directory
+  207  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  208  $ git commit -m "second commit"
+  209  [master e228011] second commit
+  210   1 file changed, 1 insertion(+)
+  211  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  212  $ git log
+  213  commit e2280112ad1ccd3898f8c136ef8cb049f9f8b309 (HEAD -> master)
+  214  Author: Thabang Motsoeneng <thabanghendrickm@gmail.com>
+  215  Date:   Wed Mar 10 19:19:47 2021 +0200
+  216      second commit
+  217  commit f4346566d5ff701779277f32b7cec13bf4b3cb25
+  218  Author: Thabang Motsoeneng <thabanghendrickm@gmail.com>
+  219  Date:   Tue Mar 9 12:43:43 2021 +0200
+  220      initial commit
+  221  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  222  $ nano README.md
+  223  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  224  $ cat README.md
+  225  I feel like a hacker who is busy trying to find out who stole my secrets.LOL. I never
+  226  thought that i will reach a stage whereby i am understanding how git and github works
+  227  but now all seems possible.
+  228  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  229  $ git status
+  230  On branch master
+  231  Changes not staged for commit:
+  232    (use "git add <file>..." to update what will be committed)
+  233    (use "git restore <file>..." to discard changes in working directory)
+  234          modified:   README.md
+  235  no changes added to commit (use "git add" and/or "git commit -a")
+  236  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  237  $ git add README.md
+  238  warning: LF will be replaced by CRLF in README.md.
+  239  The file will have its original line endings in your working directory
+  240  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  241  $ git commit -m "third commit"
+  242  [master 3c01868] third commit
+  243   1 file changed, 3 insertions(+), 1 deletion(-)
+  244  pro@Mendel MINGW64 ~/git-basic-exercises (master)
+  245  $ git log
+  246  commit 3c018689ad4f50af2bd8867b836d60b4947eec2b (HEAD -> master)
+  247  Author: Thabang Motsoeneng <thabanghendrickm@gmail.com>
+  248  Date:   Wed Mar 10 19:26:20 2021 +0200
+  249      third commit
+  250  commit e2280112ad1ccd3898f8c136ef8cb049f9f8b309
+  251  Author: Thabang Motsoeneng <thabanghendrickm@gmail.com>
+  252  mkdir Umuzi_bootcamp
+  253  cd Umuzi_bootcamp
+  254  mkdir git-basic-exercises
+  255  cd git-basic-exercises
+  256  ls -a
+  257  git init
+  258  ls -a
+  259  git log
+  260  git add README.md
+  261  git status
+  262  touch README.md
+  263  ls -a
+  264  git status
+  265  git log
+  266  git add README.md
+  267  git status
+  268  git rm README.rm
+  269  git rm README.md
+  270  git commit -m "initial commit"
+  271  git log
+  272  nane README.md
+  273  nano README.md
+  274  cat README.md
+  275  git status
+  276  git add README.md
+  277  git commit -m "second commit"
+  278  nano README.md
+  279  git status
+  280  git add README.md
+  281  git commit -m "third commit"
+  282  git log
+  283  git checkout 8bcba850ababe4b73c8e357cfec343dd696c7dda
+  284  cat README.md
+  285  git checkout master
+  286  cat README.md
+  287  git branch milkshake-flavours
+  288  git branch
+  289  checkout
+  290  git checkout
+  291  git checkout milkshake-flavours
+  292  git branch
+  293  nano milkshakes.md
+  294  git status
+  295  git add milkshakes.md
+  296  git commit -m "added initial flavours"
+  297  git log
+  298  git checkout master
+  299  git log
+  300  git branch history
+  301  git checkout history
+  302  git log
+  303  git branch
+  304  history > history.txt
